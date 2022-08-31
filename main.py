@@ -15,5 +15,5 @@ print(head)
 body = soup.find('p').get_text()
 print(body)
 
-with open('tutorial.txt', 'w') as file:
+with open('tutorial.txt', 'w') as file: #created a file named tutorial in write mode and wrote body variable in it
     file.write(body)
